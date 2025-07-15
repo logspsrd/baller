@@ -36,10 +36,10 @@ const CommunityPage = () => {
                 <div className="h-[600px] w-[750px] bg-white absolute top-40 left-[800px] rounded-4xl flex items-center justify-center gap-8">
                     <div className="h-[500px] w-[300px] flex flex-col items-center rounded-3xl">
                         <div className="h-8 w-full">
-                            <h2 className="h-8 w-full text-[hsl(0,_0%,0%)] font-bold font-equip text-[18px]">Community</h2>
+                            <h2 className="h-8 w-full text-[hsl(0,_0%,0%)] font-bold text-[20px]">Community</h2>
                         </div>
                         <div className="h-[500px] w-[300px] ">
-                            <p className="font-semibold text-[18px] text-[hsl(0,_0%,40%)] pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat asperiores quidem? Magni mollitia animi tenetur dolores perferendis.</p>
+                            <p className="font-regular text-[16px] text-[hsl(0,_0%,40%)] pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat asperiores quidem? Magni mollitia animi tenetur dolores perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium officia, sit commodi asperiores, iure expedita officiis eligendi iusto odit quibusdam, magnam illum? Molestias explicabo eum asperiores voluptas voluptatem repudiandae aut?</p>
                         </div>
                         <div className="h-[200px] w-[300px] flex flex-col relative mt-4">
                             <h2 className="h-[50px] w-full text-[18px] relative  font-bold">Join the community</h2>
