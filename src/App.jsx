@@ -1,5 +1,6 @@
 import LandingPage from "./LandingPage"
 import CommunityPage from "./CommunityPage"
+import EventsPage from "./EventsPage"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <LandingPage/>
       <CommunityPage/>
+      <EventsPage/>
     </>
   )
 }
