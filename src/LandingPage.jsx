@@ -1,4 +1,3 @@
-import './index.css'
 
 const LandingPage = () => {
 
@@ -6,7 +5,7 @@ const LandingPage = () => {
         <>
             <div className="bg-[url('./assets/ball-in-hand.jpg')] bg-cover bg-center h-screen w-full relative">
                 <header className="h-24 w-full flex border-b-1 border-zinc-300">
-                    <h2 className="h-24 w-40 flex items-center justify-center text-3xl font-equip text-white select-none">baller.</h2>
+                    <h2 className="h-24 w-40 flex items-center justify-center text-3xl font-bold text-white select-none">baller.</h2>
                     <div className="h-24 w-[400px] flex items-center justify-center text-white">
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Home</a>
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Programs</a>
