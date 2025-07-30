@@ -2,8 +2,8 @@
 const CommunityPage = () => {
 
     return(
-        <div className="h-screen">
-            <div className="h-[800px] w-[1600px] top-16 left-[50%] -translate-x-[50%] rounded-[50px] relative bg-gray-100">
+        <div className="h-screen bg-[hsl(0,_0%,95%)]">
+            <div className="h-[800px] w-[1600px] top-16 left-[50%] -translate-x-[50%] rounded-[50px] relative">
                 <div className="h-[350px] w-[450px] flex flex-col absolute top-40 left-24">
                     <h2 className="h-[150px] w-[450px] flex text-[hsl(0,_0%,0%)] font-bold text-[48px]">Explore different communities.</h2>
                     <div className="h-[125px] w-[500px] pt-4 flex flex-wrap gap-2">
@@ -30,16 +30,13 @@ const CommunityPage = () => {
                     </div>
                 </div>
                 <div className="absolute top-[495px] left-[90px] rounded-3xl h-[175px] w-[475px] bg-[url('./src/assets/sparring-boxing.jpg')] bg-cover bg-center"></div>
-                <div className="h-[600px] w-[900px] bg-white absolute top-24 left-[650px] rounded-4xl flex items-center justify-center gap-24">
+                <div className="h-[600px] w-[900px] bg-white absolute top-24 left-[650px] rounded-4xl flex items-center justify-center gap-16">
                     <div className="h-[450px] w-[400px] flex flex-col">
-                        <div className="h-[60px] w-full text-[24px] font-bold pt-4"><h2>Find and meet new people!</h2></div>
-                        <div className="h-[200px] w-full">
-                            <p className="text-[18px] font-regular text-[hsl(0,_0%,_70%)]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi sint necessitatibus delectus aspernatur vitae minima facilis ullam incidunt.</p>
-                        </div>
-                        <h2 className="h-[100px] w-[275px] text-[24px] font-bold pt-12">Join to access all communities</h2>
-                        <button className="bg-black h-[50px] w-[325px] flex items-center pl-8 rounded-4xl text-white text-[18px] mt-8 hover:bg-[hsl(0,_0%,_20%)] transition-all duration-300 cursor-pointer">Join <box-icon name='arrow-back' color="white" rotate='180' className="relative left-52" ></box-icon></button>
+                        <div className="h-[225px] w-full text-[40px] font-bold leading-tight"><h2>Find and meet new people!</h2></div>
+                        <h2 className="h-[75px] w-[350px] text-[40px] leading-tight mb-16 pt-12">Join to access all communities</h2>
+                        <button className="bg-black h-[60px] w-[350px] flex items-center pl-6 font-semibold rounded-4xl text-white text-[20px] mt-8 hover:bg-[hsl(0,_0%,_15%)] hover:scale-101 transition-all duration-300 cursor-pointer">Join <box-icon name='arrow-back' color="white" rotate='180' className="relative left-58" ></box-icon></button>
                     </div>
-                    <div className="h-[450px] w-[250px] bg-[url('./src/assets/pickle-ball.jpg')] bg-cover bg-center rounded-4xl"></div>
+                    <div className="h-[500px] w-[300px] bg-[url('./src/assets/pickle-ball.jpg')] bg-cover bg-center rounded-4xl"></div>
                 </div>
             </div>
         </div>
