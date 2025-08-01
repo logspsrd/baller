@@ -1,5 +1,16 @@
+import { useState } from 'react'
+
 
 const ProgramPage = () => {
+
+    const [selectedEvent, setSelectedEvent] = useState(null)
+    const [fadedEvent, setFadedEvent] = useState(false)
+
+    const handleClick = (eventName) => {
+        setSelectedEvent(eventName);
+        setFadedEvent(true)
+        console.log("Selected event:", eventName)
+    }
 
     return(
         <>
