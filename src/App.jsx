@@ -2,6 +2,7 @@ import LandingPage from "./LandingPage"
 import CommunityPage from "./CommunityPage"
 import EventsPage from "./EventsPage"
 import ProgramPage from "./ProgramPage"
+import Test from "./Test"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <CommunityPage/>
       <ProgramPage/>
       <EventsPage/>
+      <Test/>
     </>
   )
 }
