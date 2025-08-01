@@ -9,7 +9,7 @@ const LandingPage = () => {
                     <div className="h-24 w-[400px] flex items-center justify-center text-white">
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Home</a>
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Programs</a>
-                        <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Runs</a>
+                        <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Products</a>
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Events</a>
                     </div>
                 </header>

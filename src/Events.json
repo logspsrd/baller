@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "City Marathon 10K",
+    "type": "Running",
+    "location": "Central Park, NY",
+    "date": "2025-09-15",
+    "description": "Join thousands of runners for a scenic 10K marathon through the heart of the city."
+  },
+  {
+    "id": 2,
+    "title": "Beach Volleyball Tournament",
+    "type": "Volleyball",
+    "location": "Santa Monica Beach, CA",
+    "date": "2025-08-22",
+    "description": "Compete with local teams in this exciting 2-day beach volleyball showdown."
+  },
+  {
+    "id": 3,
+    "title": "Indoor Rock Climbing Challenge",
+    "type": "Climbing",
+    "location": "GripZone Climbing Gym, CO",
+    "date": "2025-10-05",
+    "description": "Test your climbing skills in speed and endurance categories."
+  },
+  {
+    "id": 4,
+    "title": "CrossFit Community Throwdown",
+    "type": "CrossFit",
+    "location": "Iron Pulse Gym, TX",
+    "date": "2025-08-12",
+    "description": "Open competition for all CrossFit levels—sign up solo or as a team."
+  },
+  {
+    "id": 5,
+    "title": "Mindful Yoga Retreat",
+    "type": "Yoga",
+    "location": "Big Sur, CA",
+    "date": "2025-11-03",
+    "description": "Reconnect your body and mind in this guided outdoor yoga experience."
+  },
+  {
+    "id": 6,
+    "title": "Strength Training Workshop",
+    "type": "Fitness",
+    "location": "Downtown Wellness Center, IL",
+    "date": "2025-09-30",
+    "description": "Learn proper technique and progressions from certified strength coaches."
+  },
+  {
+    "id": 7,
+    "title": "Obstacle Course Sprint",
+    "type": "Endurance",
+    "location": "Warrior Grounds, AZ",
+    "date": "2025-10-20",
+    "description": "Climb, crawl, and conquer a high-energy obstacle sprint course."
+  },
+  {
+    "id": 8,
+    "title": "Cycling Endurance Ride",
+    "type": "Cycling",
+    "location": "Blue Ridge Parkway, NC",
+    "date": "2025-09-05",
+    "description": "Scenic 50-mile endurance ride with support stations and after-party."
+  }
+]
