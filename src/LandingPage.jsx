@@ -13,8 +13,8 @@ const LandingPage = () => {
                         <a className="h-[94px] w-full flex items-center justify-center hover:bg-[rgba(255,_255,_255,_0.2)] hover:backdrop-blur-sm transition-all duration-200 cursor-pointer">Events</a>
                     </div>
                 </header>
-                <div className="h-[250px] w-[450px] absolute left-[200px] top-[400px] flex">
-                    <h2 className="text-white text-[32px] font-semibold">A new way for athletes to meet other athletes.</h2>
+                <div className="h-[250px] w-[725px] absolute left-[200px] top-[400px] flex">
+                    <h2 className="text-white text-[40px] ">A new challenge for athletes — meet and grow with others.</h2>
                 </div>
             </div>
         </>

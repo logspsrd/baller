@@ -4,7 +4,8 @@
     "title": "City Marathon 10K",
     "type": "Running",
     "location": "Central Park, NY",
-    "date": "2025-09-15",
+    "date": "September 16th",
+    "time": "8:00 AM - 11:00 AM",
     "description": "Join thousands of runners for a scenic 10K marathon through the heart of the city."
   },
   {
@@ -12,23 +13,28 @@
     "title": "Beach Volleyball Tournament",
     "type": "Volleyball",
     "location": "Santa Monica Beach, CA",
-    "date": "2025-08-22",
-    "description": "Compete with local teams in this exciting 2-day beach volleyball showdown."
+    "date": "August 4th",
+    "time": "10:00 AM - 5:00 PM",
+    "description": "Compete with local teams in this exciting 2-day beach volleyball showdown.",
+    "image": "./src/assets/beach-volley-ball.jpg"
   },
   {
     "id": 3,
     "title": "Indoor Rock Climbing Challenge",
     "type": "Climbing",
     "location": "GripZone Climbing Gym, CO",
-    "date": "2025-10-05",
-    "description": "Test your climbing skills in speed and endurance categories."
+    "date": "February 21st",
+    "time": "11:00 AM - 3:00 PM",
+    "description": "Test your climbing skills in speed and endurance categories.",
+    "image": "./src/assets/indoor-rock-climbing.jpg"
   },
   {
     "id": 4,
     "title": "CrossFit Community Throwdown",
     "type": "CrossFit",
     "location": "Iron Pulse Gym, TX",
-    "date": "2025-08-12",
+    "date": "August 12th",
+    "time": "9:30 AM - 12:00 PM",
     "description": "Open competition for all CrossFit levels—sign up solo or as a team."
   },
   {
@@ -36,7 +42,8 @@
     "title": "Mindful Yoga Retreat",
     "type": "Yoga",
     "location": "Big Sur, CA",
-    "date": "2025-11-03",
+    "date": "November 3rd",
+    "time": "7:30 AM - 10:00 AM",
     "description": "Reconnect your body and mind in this guided outdoor yoga experience."
   },
   {
@@ -44,7 +51,8 @@
     "title": "Strength Training Workshop",
     "type": "Fitness",
     "location": "Downtown Wellness Center, IL",
-    "date": "2025-09-30",
+    "date": "July 16th",
+    "time": "2:00 PM - 4:00 PM",
     "description": "Learn proper technique and progressions from certified strength coaches."
   },
   {
@@ -52,7 +60,8 @@
     "title": "Obstacle Course Sprint",
     "type": "Endurance",
     "location": "Warrior Grounds, AZ",
-    "date": "2025-10-20",
+    "date": "January 14th",
+    "time": "1:00 PM - 3:00 PM",
     "description": "Climb, crawl, and conquer a high-energy obstacle sprint course."
   },
   {
@@ -60,7 +69,8 @@
     "title": "Cycling Endurance Ride",
     "type": "Cycling",
     "location": "Blue Ridge Parkway, NC",
-    "date": "2025-09-05",
+    "date": "May 24th",
+    "time": "8:30 AM - 12:30 PM",
     "description": "Scenic 50-mile endurance ride with support stations and after-party."
   }
 ]

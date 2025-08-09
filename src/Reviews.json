@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Jessica L.",
+    "stars": 5,
+    "review": "Absolutely loved the experience! The staff was super friendly and everything was well organized. Will definitely come back.",
+    "date": "May 5th",
+    "program": "Basketball Basics"
+  },
+  {
+    "name": "Marcus R.",
+    "stars": 4,
+    "review": "Great atmosphere and fun activities. Some equipment was a bit worn, but overall a fantastic time.",
+    "date": "June 4th",
+    "program": "Advanced Shooting Drills"
+  },
+  {
+    "name": "Priya S.",
+    "stars": 3,
+    "review": "It was okay. The place was a bit crowded and it took a while to get started. Staff were helpful though.",
+    "date": "April 18th",
+    "program": "Youth Training Camp"
+  },
+  {
+    "name": "Tommy N.",
+    "stars": 5,
+    "review": "Had a blast with my friends! Highly recommend for group outings. Everything was clean and well maintained.",
+    "date": "March 11th",
+    "program": "Team Building Challenge"
+  },
+  {
+    "name": "Emily C.",
+    "stars": 2,
+    "review": "Not quite what I expected. The event started late and the facilities could use some improvements.",
+    "date": "May 2nd",
+    "program": "Beginner's Tournament"
+  },
+  {
+    "name": "Carlos R.",
+    "stars": 4,
+    "review": "Fun for the whole family! My kids enjoyed every minute. Would recommend for a weekend outing.",
+    "date": "June 9th",
+    "program": "Family Fun Day"
+  }
+]
