@@ -15,7 +15,7 @@ const ProgramPage = () => {
 
     return(
         <>
-            <div className="h-screen w-full bg-[hsl(0,_0%,95%)] flex flex-col md:flex-row items-center justify-center relative rounded-3xl gap-16">
+            <div className="h-screen w-full bg-[hsl(0,_0%,95%)] flex md:flex-row items-center justify-center relative rounded-3xl gap-16">
                 <div className="h-[800px] w-[650px] flex flex-col gap-20">
                     <h2 className="h-40 w-full text-[44px] font-semibold text-black">Unlock your full potential — Start training to your limits.</h2>
                     <ReviewCard/>

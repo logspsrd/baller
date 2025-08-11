@@ -3,7 +3,7 @@ const Test = () => {
 
     return(
         <>
-            <div className="h-screen w-screen"></div>
+            <div className="h-screen w-full bg-blue-300"></div>
         </>
     )
 }
