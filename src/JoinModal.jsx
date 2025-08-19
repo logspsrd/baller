@@ -53,6 +53,11 @@ const JoinModal = ({ onClose }) => {
                         Log in
                     </a>
                 </p>
+                <div className="flex items-center justify-center gap-8 mt-8">
+                    <box-icon type='logo' name='google' className="h-12 w-20 p-1 rounded-sm border border-gray-300 hover:bg-[hsl(0,0%,90%)] transition-all duration-500 cursor-pointer"></box-icon>
+                    <box-icon type='logo' name='facebook' className="h-12 w-20 p-1 rounded-sm border border-gray-300 hover:bg-[hsl(0,0%,90%)] transition-all duration-500 cursor-pointer"></box-icon>
+                    <box-icon type='logo' name='apple' className="h-12 w-20 p-1 rounded-sm border border-gray-300 hover:bg-[hsl(0,0%,90%)] transition-all duration-500 cursor-pointer"></box-icon>
+                </div>
             </div>
         </>
     );

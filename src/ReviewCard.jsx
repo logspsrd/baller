@@ -7,9 +7,11 @@ const ReviewCard = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const handleNext = () => {
+
         setCurrentIndex((prevIndex) => 
-            prevIndex === Reviews.length - 1 ? 0 : prevIndex + 1
+        prevIndex === Reviews.length - 1 ? 0 : prevIndex + 1
         )
+        
     }
 
     const handlePrev = () => {
@@ -23,32 +25,33 @@ const ReviewCard = () => {
 
     return(
         <>
-            <div className="h-[300px] w-[650px] bg-white rounded-3xl relative">
-                            <div className="h-12 w-full flex mt-10">
-                                <h2 className="h-12 w-40 flex items-center justify-baseline text-[24px] ml-8">{currentReview.name}</h2>
+            <div className="h-[200px] w-[450px] bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-sm border border-white/20 rounded-3xl absolute top-[655px] left-[330px] overflow-hidden">
+                            <div className="h-12 w-full flex mt-4">
+                                <h2 className={`h-12 w-28 flex items-center justify-baseline text-[18px] text-white ml-8 overflow-hidden transition-all duration-1000`}
+                                    >{currentReview.name}</h2>
                                 <div className="h-full w-[150px] flex items-center justify-baseline">
                                     {Array.from({ length: currentReview.stars }).map((_, i) => (
                                         <box-icon 
                                         key={i}
                                         type='solid' 
-                                        color="gold" 
+                                        color="white" 
                                         name='star'
                                         ></box-icon>
                                     ))}
                                 </div>
-                                <div className="h-full w-[100px] flex items-center justify-center ml-40">
-                                    <h2 className="text-[18px]">{currentReview.date}</h2>
+                                <div className="h-full w-[150px] flex items-center justify-center">
+                                    <h2 className="text-[16px] text-white font-semibold tracking-wide ml-12-=">{currentReview.date}</h2>
                                 </div>
                             </div>
                             <div className="h-12 w-[200px] flex ml-8">
-                                <h2 className="text-[hsl(0,0%,60%)] font-light">{currentReview.program}</h2>
+                                <h2 className="text-[hsl(0,0%,80%)] font-light">{currentReview.program}</h2>
                             </div>
-                            <div className="h-24 w-[400px] flex items-baseline justify-center ml-8">
+                            <div className="h-20 w-[325px] text-white flex items-baseline justify-center ml-8">
                                 <p>{currentReview.review}</p>
                             </div>
-                            <div className="h-16 w-44 absolute left-[475px] bottom-2 flex items-center justify-center gap-4">
-                                <button onClick={handlePrev} className="h-12 w-12 flex items-center justify-center bg-black hover:bg-[hsl(0,0%,20%)] transition-all duration-500 rounded-full hover:scale-102 cursor-pointer"><box-icon name='chevron-left' color='white' className="h-8 w-8"></box-icon></button>
-                                <button onClick={handleNext} className="h-12 w-12 flex items-center justify-center bg-black hover:bg-[hsl(0,0%,20%)] transition-all duration-500 rounded-full hover:scale-102 cursor-pointer"><box-icon name='chevron-right' color='white' className="h-8 w-8"></box-icon></button>
+                            <div className="h-16 w-44 absolute top-[140px] left-[315px] bottom-2 flex items-center justify-center gap-2">
+                                <button onClick={handlePrev} className="h-8 w-8 flex items-center justify-center bg-white hover:bg-[hsl(0,0%,80%)] transition-all duration-500 rounded-full hover:scale-102 cursor-pointer"><box-icon name='chevron-left' color='black' className="h-8 w-8 flex items-center justify-center p-1"></box-icon></button>
+                                <button onClick={handleNext} className="h-8 w-8 flex items-center justify-center bg-white hover:bg-[hsl(0,0%,80%)] transition-all duration-500 rounded-full hover:scale-102 cursor-pointer"><box-icon name='chevron-right' color='black' className="h-8 w-8 flex items-center justify-center p-1"></box-icon></button>
                             </div>
                         </div>
         </>

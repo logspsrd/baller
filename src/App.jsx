@@ -1,19 +1,16 @@
 import LandingPage from "./LandingPage"
-import CommunityPage from "./CommunityPage"
-import EventsPage from "./EventsPage"
-import ProgramPage from "./ProgramPage"
-import Test from "./Test"
-import JoinModal from "./JoinModal"
+import CommunityComponent from "./CommunityComponent"
+import EventsComponent from "./EventsComponent"
+import ProgramComponent from "./ProgramComponent"
 
 function App() {
 
   return (
     <>
       <LandingPage/>
-      <CommunityPage/>
-      <ProgramPage/>
-      <EventsPage/>
-      <Test/>
+      <CommunityComponent/>
+      <ProgramComponent/>
+      <EventsComponent/>
     </>
   )
 }
